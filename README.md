@@ -7,9 +7,15 @@ Zig build and bindings for [Micro QuickJS](https://github.com/nicklaros/mquickjs
 ```zig
 const mquickjs = @import("mquickjs");
 
+/// The compiled in stdlib from the build
+const your_stdlib = @extern(
+    *js.c.JSSTDLibraryDef,
+    .{ .name = "js_stdlib" },
+);
+
 pub fn main() !void {
     var buf: [1024 * 64]u8 align(8) = undefined;
-    const ctx = try mquickjs.Context.new(&buf, &your_stdlib);
+    const ctx = try mquickjs.Context.new(&buf, your_stdlib);
     defer ctx.free();
 
     // Evaluate JavaScript
