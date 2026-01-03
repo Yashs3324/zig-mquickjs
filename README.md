@@ -16,10 +16,10 @@ pub fn main() !void {
     const result = mquickjs.Value.eval(ctx,
         \\(function() { return 40 + 2; })()
     , "<main>", .{ .retval = true });
-  assert(!result.isException());
+    assert(!result.isException());
 
-  const value = result.toInt32(ctx);
-  assert(value == 42);
+    const value = result.toInt32(ctx);
+    assert(value == 42);
 }
 ```
 
