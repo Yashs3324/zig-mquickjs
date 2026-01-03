@@ -96,6 +96,9 @@ pub fn library(
         }),
         .linkage = .static,
     });
+    if (target.result.os.tag != .macos) {
+        lib.linkLibC();
+    }
 
     // Default stdlib generator
     const mqjs_stdlib = try stdlibGen(b, .{
