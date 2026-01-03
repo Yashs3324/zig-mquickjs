@@ -1,6 +1,6 @@
 # zig-mquickjs
 
-Zig build and bindings for [Micro QuickJS](https://github.com/nicklaros/mquickjs).
+Zig build and bindings for [Micro QuickJS](https://github.com/bellard/mquickjs).
 
 ## Example
 
